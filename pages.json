@@ -1,0 +1,66 @@
+{
+    "pages" : [
+		{
+		    "path" : "pages/ucenter/login",
+		    "style" : {
+				"navigationBarTitleText" : "超级巴士司机端",
+				"app-plus":{
+					"bounce":"none"
+				}
+			}
+		},
+        {
+            "path" : "pages/home/home2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "超级巴士司机端",
+                "enablePullDownRefresh": true
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/qr/qr",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "超级巴士司机端",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path":"pages/pwd/findPwd",
+			"style":{
+				"navigationBarTitleText":"超级巴士司机端"
+			}
+		}],
+    "globalStyle" : {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#fd3254",
+		"backgroundColor": "#fbf9fe"
+    },
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#f38031",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/home2",
+			"iconPath": "static/img/footer/footer-home.png",
+			"selectedIconPath": "static/img/footer/footer-home-act.png",
+			"text": "首页"
+		}
+		// , {
+		// 	"pagePath": "pages/qr/qr",
+		// 	"iconPath": "static/img/footer/footer-msg.png",
+		// 	"selectedIconPath": "static/img/footer/footer-msg-act.png",
+		// 	"text": "扫码"
+		// }
+		, {
+			"pagePath": "pages/ucenter/login",
+			"iconPath": "static/img/footer/footer-member.png",
+			"selectedIconPath": "static/img/footer/footer-member-act.png",
+			"text": "个人"
+		}]
+	}
+}
